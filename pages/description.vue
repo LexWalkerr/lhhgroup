@@ -118,7 +118,7 @@
                   <i class="fa-solid fa-house-laptop"></i>
                   REMOTE JOB
                 </span>
-                <p>No</p>
+                <p>Yes</p>
               </div>
 
               <div class="info-item">
@@ -288,7 +288,7 @@
               <i class="fa-solid fa-arrow-up-from-bracket"></i>
             </label>
              <div v-if="uploadResult" class="result">
-        <p v-if="uploadResult.ok">✅ File uploaded successfully!</p>
+        <p v-if="uploadResult.ok">✅ Job Application Submitted Successfully!</p>
         <p v-else-if="uploadResult.error">❌ Error: {{ uploadResult.error }}</p>
       </div>
           </div>
