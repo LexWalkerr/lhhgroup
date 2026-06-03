@@ -2,7 +2,7 @@
   <div class="page">
     <!-- Sidebar -->
     <aside class="sidebar">
-      <a href="https://myportal.lhh.com/home" class="logo" style="text-decoration: none;">LHH</a>
+      <a href="https://myportal.lhh.com/home" class="logo" style="text-decoration: none;">ACC</a>
 
       <div class="nav-icons">
         <div class="icon-box">
@@ -68,7 +68,7 @@
         <section class="left-section">
           <div style="width: 80%;">
             <div class="job-header">
-              <div class="company-logo">LHH</div>
+              <div class="company-logo">Alaskan Comprehensive Care</div>
 
               <div>
                 <h2>Accounts Payable</h2>
@@ -86,7 +86,7 @@
                   <i class="fa-solid fa-location-dot"></i>
                   LOCATION
                 </span>
-                <p>San Diego, California</p>
+                <p>Alaska</p>
               </div>
 
               <div class="info-item">
@@ -141,7 +141,7 @@
             <!-- Description -->
             <div class="description" style="margin-bottom: 200px;">
               <p>
-                LHH Recruitment Solutions is partnering with a mission‑driven organization in San Diego to identify an
+                Alaskan Comprehensive Care Recruitment Solutions is partnering with a mission‑driven organization in Alaska to identify an
                 experienced Accounts Payable Specialist to join their accounting team on a direct‑hire basis. This role
                 is ideal for an AP professional who enjoys working in an environment where accuracy, analysis, and
                 thoughtful invoice coding are essential.
@@ -196,7 +196,7 @@
               <!-- <p> -->
               <ul style="list-style: disc; display: flex; flex-direction: column; gap: 10px;">
                 <li>Hybrid role</li>
-                <li>San Diego–based office</li>
+                <li>Alaska–based office</li>
               </ul>
               <!-- </p> -->
               <p></p>
@@ -228,17 +228,17 @@
                 federal, state, and local laws and/or security clearance requirements, including, as applicable:</p>
 
               <ul style="list-style: disc; display: flex; flex-direction: column; gap: 10px;">
-                <li>The California Fair Chance Act</li>
-                <li>Los Angeles City Fair Chance Ordinance</li>
+                <li>The Alaska Fair Chance Act</li>
+                <!-- <li>Los Angeles City Fair Chance Ordinance</li>
                 <li>Los Angeles County Fair Chance Ordinance for Employers</li>
-                <li>San Francisco Fair Chance Ordinance</li>
+                <li>San Francisco Fair Chance Ordinance</li> -->
               </ul>
 
               <p></p>
 
-              <h3>Massachusetts Candidates Only:
+              <h3>Alaskan Candidates Only:
                 <span style="font-weight: 300;">
-                  It is unlawful in Massachusetts to require or administer a lie detector test as a condition of
+                  It is unlawful in Alaska to require or administer a lie detector test as a condition of
                   employment or continued employment. An employer who violates this law shall be subject to criminal
                   penalties and civil liability.
                 </span>
@@ -590,17 +590,24 @@ body {
 
 .job-header {
   display: flex;
+  justify-content: space-between;
   gap: 16px;
   align-items: flex-start;
 }
 
 .company-logo {
-  width: 42px;
-  height: 42px;
+  width: 40%;
+  height: auto;
+  margin-right: 80px;
   background: #f4e8f8;
   color: #5b1369;
   border-radius: 8px;
-  font-weight: 700;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-left: 1px solid #5b1369;
+  font-size: 24px;
+  padding: 12px;
+  font-weight: 800;
   display: flex;
   align-items: center;
   justify-content: center;
